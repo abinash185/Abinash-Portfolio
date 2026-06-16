@@ -57,7 +57,7 @@ body {
   -webkit-mask-image: radial-gradient(ellipse 70% 90% at 50% 50%, black 40%, transparent 100%);
   transition: opacity .3s;
 }
-[data-theme="light"] #char-bg video { opacity: 0.37; }
+[data-theme="light"] #char-bg video { opacity: 0.25; }
 #char-bg .char-placeholder {
   height: 100%; width: 100%; display: flex; align-items: center; justify-content: center;
 }
@@ -227,7 +227,7 @@ body {
   .nav-links-desktop { display: none !important; }
   .hire-btn-desktop { display: none !important; }
   .hamburger { display: flex !important; }
-  #char-bg video { opacity: .06; }
+  #char-bg video { opacity: .25; }
 }
 @media (max-width: 600px) {
   .grid6 { grid-template-columns: repeat(3,1fr); }
